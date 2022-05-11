@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Ambasador</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+a:link { text-decoration: none;
+color:black;}
+a:visited { text-decoration: none;
+color:black; }
+a:hover { text-decoration: none;
+color:black; }
+a:active { text-decoration: none;
+color:black;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #5F675D;
+}
+
+
+li {
+  display: inline;
+}
+</style>
+</head>
+<body style="background-color:#802221;">
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  mybutton.style.display = "block";
+} else {
+  mybutton.style.display = "none";
+}
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+  <div class="container">
+<ul class=head>
+  <li><a href="file:///C:/Users/Bradh/OneDrive/Desktop/ambassador/mainpage/visit/visit.html">VISIT
+  <li><a href="file:///C:/Users/Bradh/OneDrive/Desktop/ambassador/mainpage/take/take.html">TAKEn'BAKE</a></li>
+  <li><a href="file:///C:/Users/Bradh/OneDrive/Desktop/ambassador/mainpage/mainpage/main.html"><img class="logo" src="images\ambassador_logo.png" alt=Ambassador></a></li>
+  <li><a href="file:///C:/Users/Bradh/OneDrive/Desktop/ambassador/mainpage/menu/menu.html">MENU</a></li>
+  <li><a href="file:///C:/Users/Bradh/OneDrive/Desktop/ambassador/mainpage/history/history.html">HISTORY</a></li>
+</ul>
+
+<img class="map"src="images\hall.jpg">
+<h1 class="visit">HISTORY</h1>
+
+<div class="history">
+  <p class="body">On January 1, 1965, the Ambassador Restaurant opened under new ownership. The new owners, the Rossi family, had transformed the space from a tap bar into a restaurant that specialized in pizza and sandwiches. In 1978, the Ambassador was expanded into the space next door, and the second dining room was added. In January 2007, the Ambassador became a non-smoking establishment. To explain the history of the Ambassador and the unique murals that line the interior walls, the owners conducted research and wrote a poem detailing the story. The poem, entitled "Come Fill a Bumper," has since been printed on the cover of the Ambassador menu. (see below for full text)
+</p>
+<p class="body_2">The first line of the poem mentions "Mr. Rohrbeck," who was “given a job to do.” Rohrbeck, the mural artist, was commissioned by Joseph Bosch (born in Baden, Germany in 1850) to paint the murals specifically for the Bosch brewery (closed in 1978). The murals were later placed in the "old Giltedge Bar." Featuring gnomes in various states of celebration, the murals are oil on canvas, with several coats of varnish on top for preservation. The date that the paintings were sold to the Ambassador and transferred from the Bosch Brewery is unclear, but the transaction likely took place in the late 40s or early 50s during a remodeling project.
+</p>
+<p>The Ambassador retains the original charm and tradition of its original inception; in addition to the murals, which have remained in place for over 50 years, the original pizza recipe is still used to create the Ambassador pizzas.</p>
+<img class="news" src="images\news.jpg">
+<p class="bump">COME FILL A BUMPER</p>
+<p>On or about nineteen hundred and two, Mr. Rohrbeck was given a job to do.
+With brushes in hand and gnomes in his head, he created the masterpiece on the wall above.</p>
+<p>First home for the paintings was the old Giltedge Bar, east of here, but not too far.
+Streets were of dirt, sidewalks of wood, hitching posts for horses, business was good.</p>
+<p>Beer for a nickel, whiskey for a dime, sandwiches a quarter any old time.
+Prohibition was next, and became the law, the Ambassador, a speakeasy, called “Hole in the Wall”</p>
+<p>Paintings were rolled and stored away, for twelve long years in the dust they lay.
+At last came nineteen thirty-three, the law was repealed and Bacchus was free.
+Saloons and taverns opened their doors, folks danced, sang, and drank spirits once more.</p>
+<p>The old bar was hauled out of its storage place, and the paintings were hung on the walls they now grace.</p>
+<p>The artist, long gone, would be proud if he knew, that folks still enjoy them as much as they do.</p>
+<img class="mural" src="images\murals.jpg"
+
+
+</div>
+</body>
+</html>
